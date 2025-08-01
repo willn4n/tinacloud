@@ -8,8 +8,8 @@
   },
   "scripts": {
     "dev": "tinacms dev -c \"astro dev\"",
-    "start": "astro dev",
-    "build": "astro build",
+    "start": "tinacms dev -c \"astro dev\"",
+    "build": "tinacms build && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "check": "npm run check:astro && npm run check:eslint && npm run check:prettier",
